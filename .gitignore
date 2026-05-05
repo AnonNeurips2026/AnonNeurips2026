@@ -1,0 +1,14 @@
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+__pycache__/
+*.egg-info/
+*.log
+*.pyc
+artifacts/reproduced/
+build/
+dist/
+hf_*results/
+large_scale/**/delta_bank*.pkl

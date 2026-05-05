@@ -1,0 +1,1 @@
+"""FNQS model components."""

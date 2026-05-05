@@ -1,0 +1,13 @@
+system,method_id,metric,mean,std,count
+j1j2,single_best_fixed_lambda,r_val_raw,1141.9186384102031,313.71611730886207,10
+j1j2,single_best_fixed_lambda,var_hat_raw,1008.5054259943387,344.4751231008451,10
+j1j2,same_batch_multilambda_uniform_k4,r_val_raw,1360.9605044926843,563.5858527462026,10
+j1j2,same_batch_multilambda_uniform_k4,var_hat_raw,954.3602100910941,339.0883306922483,10
+j1j2,same_batch_multilambda_stacking_k4,r_val_raw,313.96336773246003,166.3908293067106,10
+j1j2,same_batch_multilambda_stacking_k4,var_hat_raw,257.68600159386506,129.2999323196044,10
+j1j2,indep_single_lambda_uniform_k4,r_val_raw,450.96964439025635,247.20232209837047,10
+j1j2,indep_single_lambda_uniform_k4,var_hat_raw,264.7413935904353,141.91055067161653,10
+j1j2,indep_multilambda_uniform_k4,r_val_raw,837.1338570379837,456.2574436213953,10
+j1j2,indep_multilambda_uniform_k4,var_hat_raw,408.4135768372289,156.88952186491773,10
+j1j2,indep_multilambda_stacking_k4,r_val_raw,120.1427776259865,100.16445121068654,10
+j1j2,indep_multilambda_stacking_k4,var_hat_raw,88.76992133581759,67.15526455630584,10

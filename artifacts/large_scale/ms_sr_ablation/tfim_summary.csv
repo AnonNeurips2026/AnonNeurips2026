@@ -1,0 +1,13 @@
+system,method_id,metric,mean,std,count
+tfim,single_best_fixed_lambda,r_val_raw,0.00969744594982904,0.002425792628328952,10
+tfim,single_best_fixed_lambda,var_hat_raw,0.004705534221535973,0.0012441150917030335,10
+tfim,same_batch_multilambda_uniform_k4,r_val_raw,0.009287486904814476,0.002160781707480435,10
+tfim,same_batch_multilambda_uniform_k4,var_hat_raw,0.0036224310544023417,0.0008443450435004251,10
+tfim,same_batch_multilambda_stacking_k4,r_val_raw,0.009091794858852722,0.002045568506564056,10
+tfim,same_batch_multilambda_stacking_k4,var_hat_raw,0.003098914010896741,0.0005559890710533475,10
+tfim,indep_single_lambda_uniform_k4,r_val_raw,0.006166139932160092,0.0014863864931041744,10
+tfim,indep_single_lambda_uniform_k4,var_hat_raw,0.001171394861171309,0.00030475200822367243,10
+tfim,indep_multilambda_uniform_k4,r_val_raw,0.006874338773748874,0.0016018082564662937,10
+tfim,indep_multilambda_uniform_k4,var_hat_raw,0.0012104927805296451,0.0002861061726038697,10
+tfim,indep_multilambda_stacking_k4,r_val_raw,0.006802216546115482,0.0015947381857504845,10
+tfim,indep_multilambda_stacking_k4,var_hat_raw,0.0013891327631036308,0.00029138079342490373,10
