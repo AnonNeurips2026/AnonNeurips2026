@@ -5,9 +5,9 @@ Three-way online comparison on 8x8 J1-J2 (J2=0.5, no-symmetry ViT). One SR
 trajectory is branched at iteration 2500; SR, SPRING, and MS-SR (K=4) each
 receive the same extra budget of 500 units (one MS-SR update = 4 units).
 
-- `energy_vs_budget_br2500.{png,pdf}` — panel (a): shared trajectory and the
-  three continuations vs cumulative budget (one MS-SR step = 4 units); panel (b): the same branches vs extra
-  budget, with high-precision final-state energy evaluations at budget 500.
+- `energy_vs_budget_br2500.{png,pdf}` — shared trajectory and the three
+  continuations vs cumulative budget (one MS-SR step = 4 units), with
+  high-precision final-state energy evaluations at equal budget (markers).
 - `data/shared_trajectory_1951_2500.csv`, `data/{sr,spring,mssr}_branch_*.csv`
   — per-step training-estimate energies per site (8192 samples per step).
 - `data/final_state_eval_*.json` — independent final-state evaluations
