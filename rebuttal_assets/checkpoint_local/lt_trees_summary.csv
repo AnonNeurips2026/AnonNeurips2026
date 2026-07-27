@@ -1,0 +1,9 @@
+source_lambda_train,method,n_checkpoints,e_val_mean
+1e-03,MS-SR (stacking),3,0.02473
+1e-03,MS-SR (uniform),3,0.02536
+1e-03,bagged@lambda_star,3,0.02459
+1e-03,single@best_fixed_lambda,3,0.03683
+1e-05,MS-SR (stacking),3,0.00158
+1e-05,MS-SR (uniform),3,0.00158
+1e-05,bagged@lambda_star,3,0.00158
+1e-05,single@best_fixed_lambda,3,0.00211
