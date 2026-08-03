@@ -1,4 +1,4 @@
-# Rebuttal assets (author response, July 2026)
+# Rebuttal assets (author response, July–August 2026)
 
 ## br2500/
 Three-way online comparison on 8x8 J1-J2 (J2=0.5, no-symmetry ViT). One SR
@@ -22,3 +22,13 @@ Summary data for the new checkpoint-local tables in the response.
 - `k_quantile_ablation_summary.csv` — K in {2,3,5} and quantile-grid ablations.
 - `lt_trees_summary.csv` — protocol re-run on checkpoints trained at
   lambda_train = 1e-3 and 1e-5.
+
+## sr_cost/
+Paired, device-synchronized wall-time comparison of standard SR, bagged SR
+(K=4), and paper-faithful MS-SR (K=4) on the TFIM L=100 checkpoint.
+
+- `README.md` — protocol, implementation optimizations, aggregation, headline
+  results, and reproduction command.
+- `data/timing_summary.csv` and `data/paired_cluster_summary.csv` — compact
+  summaries used in the author follow-up.
+- `data/pair*_*.json` — the nine sanitized final raw benchmark outputs.
